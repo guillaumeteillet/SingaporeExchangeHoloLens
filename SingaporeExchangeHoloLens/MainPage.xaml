@@ -9,6 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <Button x:Name="button" Content="Hello World !" HorizontalAlignment="Stretch" Margin="373,224" VerticalAlignment="Stretch"/>
+        <WebView x:Name="bloombergtv" HorizontalAlignment="Left" Height="256" VerticalAlignment="Top" Width="356" LoadCompleted="WebView_LoadCompleted" ScrollViewer.VerticalScrollBarVisibility="Disabled"/>
 
     </Grid>
 </Page>

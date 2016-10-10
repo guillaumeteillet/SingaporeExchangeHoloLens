@@ -25,6 +25,12 @@ namespace SingaporeExchangeHoloLens
         public MainPage()
         {
             this.InitializeComponent();
+            bloombergtv.Navigate(new Uri(@"http://www.bloomberg.com/live/pop-out"));
+        }
+
+        private void WebView_LoadCompleted(object sender, NavigationEventArgs e)
+        {
+
         }
     }
 }
